@@ -10,14 +10,28 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Loading the data to R
-
+ 
 ```{r}
-mental_health = read.csv("G2_Regular.csv")
+sm_survey = read.csv("G2_Regular.csv")
 head(mental_health)
 ```
-# Loading libraries 
+
+# the colulmn names are changed and we replaced it with convinent naming for clead code
+```{r}
+colnames(sm_survey)
+```
+
+# Loading libraries needed for visualization and statistical analysis 
 
 ```{r}
-
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(ggpubr)
+library(stats)
+library(car)
+library(lmtest)
+library(stringr)
+library(naniar)
 ```
 
