@@ -1,5 +1,11 @@
 # Biostat-G2
-**Work Plan for Data Analysis Project**
+**Work Plan for Bio Statistics Project**
+
+**This repo contains social meadia survey data colleced from kaggle data set and you can find the csv file with the name G2-Regular.csv**
+
+**Feel free to load the data into R-studio project and wrangle visalize it and try out the code**
+
+# Feel free to reachout 
 
 ### **1. Data Cleaning & Preprocessing**
 - **Handle Missing Values**: Identify columns with missing data (e.g., "N/A" in organization affiliations). Use imputation (mean/mode) or removal based on context.
