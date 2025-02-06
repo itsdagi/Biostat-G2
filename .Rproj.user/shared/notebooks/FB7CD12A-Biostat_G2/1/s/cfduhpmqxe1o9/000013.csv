@@ -1,0 +1,4 @@
+"0","mental_health = read.csv(""G2_Regular"")"
+"2","Warning: cannot open file 'G2_Regular': No such file or directory"
+"2","Error in file(file, ""rt"") : cannot open the connection
+"

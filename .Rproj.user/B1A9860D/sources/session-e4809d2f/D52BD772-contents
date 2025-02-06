@@ -9,3 +9,15 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Loading the data to R
+
+```{r}
+mental_health = read.csv("G2_Regular.csv")
+head(mental_health)
+```
+# Loading libraries 
+
+```{r}
+
+```
+
